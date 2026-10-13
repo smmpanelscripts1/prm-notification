@@ -1,0 +1,38 @@
+prm-notification:
+  admin:
+    permissions:
+      manage_label: Site bildirim kampanyalarını yönet
+    settings:
+      new_user_hours_label: Yeni üye penceresi (saat)
+      new_user_hours_help: Bu kadar saat içinde kayıt olanlar "yeni kayıt" sayılır.
+    page:
+      title: Bildirim kampanyaları
+      create: Yeni kampanya
+      empty: Henüz kampanya yok.
+      title_field: Başlık
+      body_field: İçerik
+      link_url: Link URL (isteğe bağlı)
+      link_label: Link etiketi (isteğe bağlı)
+      audiences: Hedef kitle
+      audience_new_users: Yeni kayıtlar
+      audience_new_users_help: Yakın zamanda kayıt olan kullanıcılar.
+      audience_members: Tüm üyeler (reklam paketi)
+      audience_members_help: Giriş yapmış üyeler. Geri dönen ziyaretçiler yeni yayınlanan kampanyaları görür.
+      audience_guests: Misafirler / kayıtsız ziyaretçiler (reklam plus)
+      audience_guests_help: Giriş yapmamış her ziyaretçi (Google, link veya adresi elle yazarak gelen). Misafirlere de bildirim çanı gösterilir.
+      is_active: Aktif
+      starts_at: Başlangıç (isteğe bağlı)
+      ends_at: Bitiş (isteğe bağlı)
+      save: Kaydet
+      delete: Sil
+      edit: Düzenle
+      cancel: İptal
+      status_active: Aktif
+      status_inactive: Pasif
+  forum:
+    group_label: Site duyuruları
+    bell_tooltip: Site bildirimleri
+    empty: Bildirim yok
+    dismiss: Kapat
+    open_link: Aç
+    unread: "{count} yeni"

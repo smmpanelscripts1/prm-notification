@@ -1,0 +1,46 @@
+{
+    "name": "prm/notification",
+    "description": "Targeted site announcements for members and guests with audience rules.",
+    "type": "flarum-extension",
+    "version": "2.0.0",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prm\\Notification\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "PRM Notifications",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-bullhorn",
+                "backgroundColor": "#0f766e",
+                "color": "#fff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "locale": true,
+                "gitConf": false,
+                "githubActions": false,
+                "prettier": false,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": false,
+                "styleci": false
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
